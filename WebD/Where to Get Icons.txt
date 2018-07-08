@@ -1,0 +1,4 @@
+Google Material Design Icons
+Font Awesome Icons
+BootStrap Icons
+HTML UniCode

@@ -1,0 +1,56 @@
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 10%;
+    height: 100px;
+    text-align: center;
+}
+
+.b1 {
+    background-color: floralwhite;
+}
+
+.b2 {
+    background-color: aqua;
+}
+
+.b3 {
+    background-color: aliceblue;
+}
+
+.b4 {
+    background-color: yellow;
+}
+
+.b5 {
+    background-color: chocolate;
+}
+
+.b6 {
+    background-color: brown;
+}
+
+.b7 {
+    background-color: darkblue;
+}
+
+@media screen and (max-width: 480px) {
+    .box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) and (min-width: 480px) {
+    .box {
+        width: 50%;
+    }
+
+    .b1 {
+        width: 100%;
+    }
+}

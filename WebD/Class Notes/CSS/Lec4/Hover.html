@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hover</title>
+
+    <style>
+        .selected {
+            height: 40px;
+            width: 100%;
+            position: relative;
+            background-color: red;
+            z-index: 99;
+        }
+
+        .info {
+            z-index: 100;
+            display: none;
+            width: 100%;
+            background-color: green;
+            position: absolute;
+        }
+
+        .selected:hover + .info {
+            display: block;
+            transition: 0.01ms;
+        }
+
+        .container {
+            width: 300px;
+            position: relative;
+        }
+
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: antiquewhite;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="selected">
+
+    </div>
+
+    <div class="info">
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+    </div>
+</div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+</body>
+</html>

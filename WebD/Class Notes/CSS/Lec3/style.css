@@ -1,0 +1,38 @@
+
+*{
+	box-sizing: border-box;
+}
+html
+{
+	background-color: lightblue;
+}
+
+.container
+{
+	height: 600px;
+	font-size: 0;
+}
+.box
+{
+	width: calc(33.33% - 20px);
+	min-height: 200px;
+	display: inline-block;
+	font-size: 15px;
+	color: black;
+	padding: 25px;
+	
+
+}
+span{
+	padding: 12%;
+}
+
+.box1{
+	background-color: orange;
+}
+.box2{
+	background-color: white;
+}
+.box3{
+   background-color: green;
+}

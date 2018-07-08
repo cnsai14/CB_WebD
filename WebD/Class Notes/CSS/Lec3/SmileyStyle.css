@@ -1,0 +1,57 @@
+html{
+	background-color: black;
+}
+
+.Face{
+
+   height: 250px;
+     width: 250px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+	
+	
+
+}
+.Eye{
+	height: 50px;
+	width: 50px;
+	background-color: black;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+
+	
+	
+}
+.EyeLeft{
+	top: 50px;
+	left: 50px; 
+}
+.EyeRight{
+	
+	left: 100px;
+}
+.M{
+	border-bottom: 5px solid red;
+	position: absolute; 
+	width: 50%;
+	height: 50%;
+	
+	
+	border-radius: 50%;
+	display: inline-block;
+	
+	
+	bottom: 30px;
+	left: 60px;
+}
+.M:hover{
+	border-bottom: 0; /*Removes the smiley from bottom*/
+	border-top: 5px solid red;
+	transition: 5s;
+	cursor: pointer;
+	margin-top: 500px;
+
+}
